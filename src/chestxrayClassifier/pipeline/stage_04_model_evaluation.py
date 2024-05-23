@@ -2,7 +2,6 @@ from chestxrayClassifier.config.configuration import ConfigurationManager
 from chestxrayClassifier.components.model_evaluation import Evaluation
 from chestxrayClassifier import logger
 
-
 STAGE_NAME = "Evaluation stage"
 
 

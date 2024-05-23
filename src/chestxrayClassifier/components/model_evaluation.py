@@ -5,6 +5,12 @@ import mlflow.keras
 from urllib.parse import urlparse
 from chestxrayClassifier.utils.common import save_json 
 from chestxrayClassifier.entity.config_entity import EvaluationConfig 
+import os 
+
+
+# os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/shouvik1999/end-to-end-chest-xray-mlflow-dvc.mlflow"
+# os.environ["MLFLOW_TRACKING_USERNAME"]="shouvik1999" 
+# os.environ["MLFLOW_TRACKING_PASSWORD"]="63fae32fc46c5e64ed73bd72c134f2d8209036a3" 
 
 class Evaluation:
     def __init__(self, config: EvaluationConfig):
