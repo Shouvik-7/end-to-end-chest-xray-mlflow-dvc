@@ -58,9 +58,9 @@ class Evaluation:
     
     def log_into_mlflow(self):
 
-        os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/shouvik1999/end-to-end-chest-xray-mlflow-dvc.mlflow"
+        os.environ["MLFLOW_TRACKING_URI"]=""
         os.environ["MLFLOW_TRACKING_USERNAME"]="shouvik1999" 
-        os.environ["MLFLOW_TRACKING_PASSWORD"]="63fae32fc46c5e64ed73bd72c134f2d8209036a3" 
+        os.environ["MLFLOW_TRACKING_PASSWORD"]="" 
 
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
