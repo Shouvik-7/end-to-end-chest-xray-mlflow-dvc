@@ -5,6 +5,7 @@ import tensorflow as tf
 import time
 from chestxrayClassifier.entity.config_entity import TrainingConfig
 from pathlib import Path 
+import shutil
 
 class Training:
     def __init__(self, config: TrainingConfig):
@@ -82,5 +83,10 @@ class Training:
 
         self.save_model(
             path=self.config.trained_model_path,
+            model=self.model
+        )
+
+        self.save_model(
+            path='model/model.h5',
             model=self.model
         )
