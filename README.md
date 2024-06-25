@@ -30,7 +30,7 @@
 
 MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow \
 MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef \
 python script.py
 
 Run this to export as env variables:
@@ -41,7 +41,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/shouvik1999/end-to-end-chest-xray
 
 export MLFLOW_TRACKING_USERNAME=shouvik1999 
 
-export MLFLOW_TRACKING_PASSWORD=63fae32fc46c5e64ed73bd72c134f2d8209036a3
+export MLFLOW_TRACKING_PASSWORD=63fae32fc46c5e64ed73bd72c134f2d8209036
 
 ```
 
@@ -104,7 +104,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chicken
+    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chestxray
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
