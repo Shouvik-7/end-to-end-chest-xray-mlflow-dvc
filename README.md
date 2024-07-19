@@ -1,5 +1,13 @@
 # end-to-end-chest-xray-mlflow-dvc
 
+## Trained Model Results
+Built a CNN-based image classification model to classify chest x-ray images for COVID, Pneumonia or normal. 
+
+## Results 
+![image](https://github.com/user-attachments/assets/fccc2aba-fab5-4c6a-9dac-8952613bc912)
+![image](https://github.com/user-attachments/assets/7554872c-2538-4235-b018-2be3cb0fdc33)
+
+
 ## Workflows
 
 1. Update config.yaml
