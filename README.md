@@ -37,7 +37,7 @@ Built a CNN-based image classification model to classify chest x-ray images for 
 [dagshub](https://dagshub.com/)
 
 MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
+MLFLOW_TRACKING_USERNAME=shouvik \
 MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef \
 python script.py
 
