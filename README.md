@@ -28,7 +28,6 @@ Built a CNN-based image classification model to classify chest x-ray images for 
 
 - [Documentation](https://mlflow.org/docs/latest/index.html)
 
-- [MLflow tutorial](https://youtube.com/playlist?list=PLkz_y24mlSJZrqiZ4_cLUiP0CBN5wFmTb&si=zEp_C8zLHt1DzWKK)
 
 ##### cmd
 - mlflow ui
@@ -38,7 +37,7 @@ Built a CNN-based image classification model to classify chest x-ray images for 
 
 MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow \
 MLFLOW_TRACKING_USERNAME=shouvik \
-MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef \
+MLFLOW_TRACKING_PASSWORD=6824692 \
 python script.py
 
 Run this to export as env variables:
@@ -49,7 +48,7 @@ export MLFLOW_TRACKING_URI=https://dagshub.com/shouvik1999/end-to-end-chest-xray
 
 export MLFLOW_TRACKING_USERNAME=shouvik1999 
 
-export MLFLOW_TRACKING_PASSWORD=63fae32fc46c5e64ed73bd72c134f2d8209036
+export MLFLOW_TRACKING_PASSWORD=63fae32fc4
 
 ```
 
@@ -112,7 +111,7 @@ DVC
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.us-east-1.amazonaws.com/chestxray
+    - Save the URI: 56636.dkr.ecr.us-east-1.amazonaws.com/chestxray
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -148,6 +147,6 @@ DVC
 
     AWS_REGION = us-east-1
 
-    AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
+    AWS_ECR_LOGIN_URI = demo>>  5663.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
